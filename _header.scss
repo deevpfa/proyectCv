@@ -1,8 +1,44 @@
-.imagenFondo{
-    margin: 0;
-}
-.imagenFondo img{
-    height: 100%;
+header{
     width: 100%;
-    position: absolute;
+    height: 100vh;
+    background-image: url(./assets/imagenFondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 10em 0;
+}
+header h1{
+    color: white;
+    position: relative;
+    margin: auto;
+    vertical-align: middle;
+    font-size: 2rem;
+}
+header h1::after{
+    content: "";
+    display: block;
+    margin: 0.7em auto;
+    height: 3px;
+    width: 80px;
+    background-color: rgb(114, 110, 110);
+}
+header h2{
+    color: white;
+    position: relative;
+    margin: auto;
+    vertical-align: middle;
+    font-size: 1.1rem;
+    padding-top: 1em;
+}
+.start{
+    margin-top: 2em;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background-color: #df7366;    ;
+    outline: none;
+    border: 0px solid;
+    color: white;
+    font-size: 1.1rem;
 }

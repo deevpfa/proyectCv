@@ -1,0 +1,39 @@
+.descripcion{
+    text-align: center;
+    padding-top: 3em;
+}
+.proyecto-container{
+    margin-top: 4em;
+    padding-top: 4em;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(226, 225, 225);
+    background-size: contain;
+    clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
+}
+.proyecto{
+    width: 11em;
+    margin-left: 1em;
+    margin-top: 5em;
+    background-color: white;
+}
+.proyecto img{
+    width: 11em;
+    height: 17em;
+}
+.proyecto h2{
+    font-size: 1.3em;
+}
+.proyecto p{
+    font-size: 1em;
+}
+.proyecto button{
+    width: 10em;
+    height: 3em;
+    outline: none;
+    border: 0px solid;
+    background-color:#df7366;    ;
+    border-radius: 0.5em;
+    // opacity: 0.6;
+    color: white;
+}
