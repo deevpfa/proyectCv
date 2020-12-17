@@ -1,8 +1,20 @@
-@media screen and (min-width: 769px){
-    .openWeb{
-        z-index: 1;
-        background-color: black;
+@media screen and (min-width: 600px){
+
+    // DESCRIPCION
+    .descripcion{
+        padding-top: 4em;
+        padding-bottom: 3em;
+        width: 80%;
+        margin: auto;
     }
 
-
+    // MAIN
+    .proyecto{
+        width: 18em;
+        margin: 1em 1.5em 0 1.5em;
+    }
+    .proyecto-container{
+        overflow: hidden;
+        justify-content: center;
+    }
 }
