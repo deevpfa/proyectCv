@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6bf04c5b33.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <h1>deevpfa Portfolio</h1>
         <h2>Programador Jr.</h2>
         <button class="start">Start</button>
@@ -17,15 +20,38 @@
             <h2>¿Quien soy?</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, consequatur porro nam ad, libero modi rerum veniam officia delectus reprehenderit quibusdam placeat voluptatem. Nisi eum dicta voluptatibus explicabo non debitis!</p>
         </section>
-        <section class="proyecto-container">
-            <h2>Mis Proyectos</h2>
-            <article class="proyecto">
-                <img src="./assets/dinamicPage.jpeg" alt="">
-                <h2>PROYECTO GIFOS</h2>
-                <p>Maquetacion de pagina dinamica Html, CSS3 , SASS</p>
-                <button>Ver Proyecto</button>
-            </article>
+        <section class="section-project">
+            <h2 class="tittle-carrusel">Proyectos</h2>
+            <div class="proyecto-container">
+                <article class="proyecto">
+                    <img src="./assets/gifos1.jpeg" alt="">
+                    <h2>PROYECTO GIFOS</h2>
+                    <p>Pagina con peticiones a API y grabacion de video</p>
+                    <button>Ver Proyecto</button>
+                </article>
+                <article class="proyecto">
+                    <img src="./assets/dinamicPage.jpeg" alt="">
+                    <h2>LANDING PAGE</h2>
+                    <p>Maquetacion de pagina estaica Html, CSS3 , SASS</p>
+                    <button>Ver Proyecto</button>
+                </article>
+                <article class="proyecto">
+                    <img src="./assets/dinamicPage.jpeg" alt="">
+                    <h2>PROYECTO GIFOS</h2>
+                    <p>Maquetacion de pagina dinamica Html, CSS3 , SASS</p>
+                    <button>Ver Proyecto</button>
+                </article>
+            </div>
         </section>
     </main>
+        <footer>
+            <h2>Gracias por su tiempo</h2>
+            <div>
+                <a href=""><i class="fab fa-whatsapp"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
