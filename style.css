@@ -144,6 +144,7 @@ header h2 {
   cursor: pointer;
   color: white;
   text-decoration: none;
+  font-size: 0.9em;
 }
 
 .proyecto button:hover {
