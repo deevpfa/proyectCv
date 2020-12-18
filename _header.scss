@@ -36,13 +36,19 @@ header h2{
 }
 .start{
     margin-top: 2em;
-    width: 5em;
-    height: 5em;
+    width: 7em;
+    height: 7em;
     border-radius: 50%;
     background-color: #df7366;
     outline: none;
     border: 0px solid;
+    cursor: pointer;
+}
+.start:hover{
+    background-color:#c26257;
+}
+.start a{
     color: white;
     font-size: 1.1rem;
-    cursor: pointer;
+    text-decoration: none;
 }

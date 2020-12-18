@@ -38,6 +38,8 @@
 .proyecto p{
     font-size: 1em;
     height: 4em;
+    width: 89%;
+    margin: auto;
 }
 .proyecto button{
     width: 10em;
@@ -46,6 +48,12 @@
     border: 0px solid;
     background-color:#df7366;
     border-radius: 0.5em;
-    color: white;
     cursor: pointer;
+}
+.proyecto button:hover{
+    background-color:#c26257;
+}
+.proyecto a{
+    color: white;
+    text-decoration: none;
 }

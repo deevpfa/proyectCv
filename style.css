@@ -11,7 +11,7 @@ body {
           box-sizing: border-box;
 }
 
-h2, button, p {
+h2, button, p, a {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
@@ -65,15 +65,23 @@ header h2 {
 
 .start {
   margin-top: 2em;
-  width: 5em;
-  height: 5em;
+  width: 7em;
+  height: 7em;
   border-radius: 50%;
   background-color: #df7366;
   outline: none;
   border: 0px solid;
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: #c26257;
+}
+
+.start a {
   color: white;
   font-size: 1.1rem;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .descripcion {
@@ -125,6 +133,8 @@ header h2 {
 .proyecto p {
   font-size: 1em;
   height: 4em;
+  width: 89%;
+  margin: auto;
 }
 
 .proyecto button {
@@ -134,8 +144,16 @@ header h2 {
   border: 0px solid;
   background-color: #df7366;
   border-radius: 0.5em;
-  color: white;
   cursor: pointer;
+}
+
+.proyecto button:hover {
+  background-color: #c26257;
+}
+
+.proyecto a {
+  color: white;
+  text-decoration: none;
 }
 
 footer {
