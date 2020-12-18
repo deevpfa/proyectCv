@@ -65,23 +65,20 @@ header h2 {
 
 .start {
   margin-top: 2em;
-  width: 7em;
-  height: 7em;
+  width: 6em;
+  height: 6em;
   border-radius: 50%;
   background-color: #df7366;
   outline: none;
   border: 0px solid;
   cursor: pointer;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
 }
 
 .start:hover {
   background-color: #c26257;
-}
-
-.start a {
-  color: white;
-  font-size: 1.1rem;
-  text-decoration: none;
 }
 
 .descripcion {
@@ -145,15 +142,12 @@ header h2 {
   background-color: #df7366;
   border-radius: 0.5em;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
 .proyecto button:hover {
   background-color: #c26257;
-}
-
-.proyecto a {
-  color: white;
-  text-decoration: none;
 }
 
 footer {
