@@ -125,6 +125,7 @@ header h2 {
 .proyecto img {
   width: 11em;
   height: 17em;
+  cursor: pointer;
 }
 
 .proyecto h2 {
@@ -206,6 +207,18 @@ footer a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  :root {
+    font-size: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
