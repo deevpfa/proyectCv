@@ -34,22 +34,7 @@
     cursor: pointer;
 }
 .middle,.fin{
-    position: absolute;
-    margin-left: -11em;
-}
-.inicio{
-    position: relative;
-    z-index: 1;
-    transition: opacity 2s ease-in-out;  
-}
-.middle{
-    opacity: 0;
-    transition: opacity 2s ease-in-out;
-}
-.fin{
-    opacity: 0;
-    transition: opacity 2s ease-in-out; 
-    transition-delay: 2s; 
+    display: none;
 }
 .proyecto h2{
     font-size: 1.3em;

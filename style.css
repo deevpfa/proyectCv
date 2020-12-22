@@ -129,29 +129,7 @@ header h2 {
 }
 
 .middle, .fin {
-  position: absolute;
-  margin-left: -11em;
-}
-
-.inicio {
-  position: relative;
-  z-index: 1;
-  -webkit-transition: opacity 2s ease-in-out;
-  transition: opacity 2s ease-in-out;
-}
-
-.middle {
-  opacity: 0;
-  -webkit-transition: opacity 2s ease-in-out;
-  transition: opacity 2s ease-in-out;
-}
-
-.fin {
-  opacity: 0;
-  -webkit-transition: opacity 2s ease-in-out;
-  transition: opacity 2s ease-in-out;
-  -webkit-transition-delay: 2s;
-          transition-delay: 2s;
+  display: none;
 }
 
 .proyecto h2 {
@@ -233,6 +211,29 @@ footer a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .middle, .fin {
+    display: inline-block;
+    position: absolute;
+    margin-left: -11em;
+  }
+  .inicio {
+    position: relative;
+    z-index: 1;
+    -webkit-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+  }
+  .middle {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+  }
+  .fin {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+    -webkit-transition-delay: 2s;
+            transition-delay: 2s;
   }
 }
 
