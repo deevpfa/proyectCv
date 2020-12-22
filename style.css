@@ -15,12 +15,12 @@ body {
           box-sizing: border-box;
 }
 
-h2, button, p, a {
+p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 
-h1 {
+h1, button, h2, a {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
 }
@@ -128,6 +128,32 @@ header h2 {
   cursor: pointer;
 }
 
+.middle, .fin {
+  position: absolute;
+  margin-left: -11em;
+}
+
+.inicio {
+  position: relative;
+  z-index: 1;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
+.middle {
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
+.fin {
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
 .proyecto h2 {
   font-size: 1.3em;
 }
@@ -195,7 +221,7 @@ footer a:hover {
   .descripcion {
     padding-top: 4em;
     padding-bottom: 3em;
-    width: 80%;
+    width: 55%;
     margin: auto;
   }
   .proyecto {
