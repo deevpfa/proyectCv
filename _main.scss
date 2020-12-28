@@ -31,6 +31,10 @@
 .proyecto img{
     width: 11em;
     height: 17em;
+    cursor: pointer;
+}
+.middle,.fin{
+    display: none;
 }
 .proyecto h2{
     font-size: 1.3em;

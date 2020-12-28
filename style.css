@@ -2,6 +2,10 @@
   font-size: 16px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: auto;
 }
@@ -11,12 +15,12 @@ body {
           box-sizing: border-box;
 }
 
-h2, button, p, a {
+p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 
-h1 {
+h1, button, h2, a {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
 }
@@ -121,6 +125,11 @@ header h2 {
 .proyecto img {
   width: 11em;
   height: 17em;
+  cursor: pointer;
+}
+
+.middle, .fin {
+  display: none;
 }
 
 .proyecto h2 {
@@ -190,7 +199,7 @@ footer a:hover {
   .descripcion {
     padding-top: 4em;
     padding-bottom: 3em;
-    width: 80%;
+    width: 55%;
     margin: auto;
   }
   .proyecto {
@@ -202,6 +211,41 @@ footer a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .middle, .fin {
+    display: inline-block;
+    position: absolute;
+    margin-left: -11em;
+  }
+  .inicio {
+    position: relative;
+    z-index: 1;
+    -webkit-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+  }
+  .middle {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+  }
+  .fin {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+    -webkit-transition-delay: 2s;
+            transition-delay: 2s;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  :root {
+    font-size: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
