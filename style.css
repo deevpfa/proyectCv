@@ -87,9 +87,8 @@ header h2 {
 
 .descripcion {
   text-align: center;
-  padding-top: 3em;
   color: #585858;
-  padding: 0 0.5em 0 0.5em;
+  padding: 2em 0.5em 0 0.5em;
 }
 
 .section-project {
@@ -138,7 +137,7 @@ header h2 {
 
 .proyecto p {
   font-size: 1em;
-  height: 4em;
+  height: 5em;
   width: 89%;
   margin: auto;
 }
@@ -205,6 +204,9 @@ footer a:hover {
   .proyecto {
     width: 18em;
     margin: 1em 1.5em 0 1.5em;
+  }
+  .proyecto p {
+    height: 4em;
   }
   .proyecto-container {
     overflow: hidden;
