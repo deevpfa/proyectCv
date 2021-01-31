@@ -135,6 +135,10 @@ header h2 {
   font-size: 1.3em;
 }
 
+.descripcion p {
+  line-height: 25px;
+}
+
 .proyecto p {
   font-size: 1em;
   height: 5em;
