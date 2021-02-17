@@ -14,7 +14,7 @@
         margin: 1em 1.5em 0 1.5em;
     }
     .proyecto p{
-        height: 4em;
+        height: 5em;
     }
     .proyecto-container{
         overflow: hidden;
@@ -38,6 +38,12 @@
         opacity: 0;
         transition: opacity 2s ease-in-out; 
         transition-delay: 2s; 
+    }
+    .extend{
+        height: 32em;
+    }
+    .extendp{
+        height: 8em !important;
     }
 }
 @media screen and (min-width: 1400px){

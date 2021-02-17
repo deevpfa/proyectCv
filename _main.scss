@@ -29,7 +29,7 @@
 }
 .proyecto img{
     width: 11em;
-    height: 17em;
+    height: 16em;
     cursor: pointer;
 }
 .middle,.fin{
@@ -43,7 +43,7 @@
 }
 .proyecto p{
     font-size: 1em;
-    height: 5em;
+    height: 6em;
     width: 89%;
     margin: auto;
 }
@@ -60,5 +60,19 @@
     font-size: 0.9em;
 }
 .proyecto button:hover{
-    background-color:#c26257;
+    background-color:#c43b2c;
+}
+.extend{
+    height: 35em;
+}
+.extendp{
+    height: 11em !important;
+}
+.leerMas{
+    color:#df7366;
+    font-weight: bold;
+    cursor: pointer;
+}
+.leerMas:hover{
+    color:#c43b2c;
 }

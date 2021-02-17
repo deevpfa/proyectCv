@@ -123,7 +123,7 @@ header h2 {
 
 .proyecto img {
   width: 11em;
-  height: 17em;
+  height: 16em;
   cursor: pointer;
 }
 
@@ -141,7 +141,7 @@ header h2 {
 
 .proyecto p {
   font-size: 1em;
-  height: 5em;
+  height: 6em;
   width: 89%;
   margin: auto;
 }
@@ -160,7 +160,25 @@ header h2 {
 }
 
 .proyecto button:hover {
-  background-color: #c26257;
+  background-color: #c43b2c;
+}
+
+.extend {
+  height: 35em;
+}
+
+.extendp {
+  height: 11em !important;
+}
+
+.leerMas {
+  color: #df7366;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.leerMas:hover {
+  color: #c43b2c;
 }
 
 footer {
@@ -210,7 +228,7 @@ footer a:hover {
     margin: 1em 1.5em 0 1.5em;
   }
   .proyecto p {
-    height: 4em;
+    height: 5em;
   }
   .proyecto-container {
     overflow: hidden;
@@ -240,6 +258,12 @@ footer a:hover {
     transition: opacity 2s ease-in-out;
     -webkit-transition-delay: 2s;
             transition-delay: 2s;
+  }
+  .extend {
+    height: 32em;
+  }
+  .extendp {
+    height: 8em !important;
   }
 }
 
