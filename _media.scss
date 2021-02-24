@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 769px){
 
     // DESCRIPCION
     .descripcion{
@@ -40,19 +40,31 @@
         transition-delay: 2s; 
     }
     .extend{
-        height: 32em;
+        height: 35em;
     }
     .extendp{
-        height: 8em !important;
+        height: 10em !important;
     }
 }
 @media screen and (min-width: 1400px){
     :root{
         font-size: 20px;
     }
+    .extend{
+        height: 36em;
+    }
+    .extendp{
+        height: 12em !important;
+    }
 }
 @media screen and (min-width: 2000px){
     :root{
         font-size: 40px;
+    }
+    .extend{
+        height: 37em;
+    }
+    .extendp{
+        height: 12em !important;
     }
 }

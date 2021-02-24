@@ -164,11 +164,11 @@ header h2 {
 }
 
 .extend {
-  height: 35em;
+  height: 37em;
 }
 
 .extendp {
-  height: 11em !important;
+  height: 13em !important;
 }
 
 .leerMas {
@@ -216,7 +216,7 @@ footer a:hover {
   color: #df7366;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 769px) {
   .descripcion {
     padding-top: 4em;
     padding-bottom: 3em;
@@ -260,10 +260,10 @@ footer a:hover {
             transition-delay: 2s;
   }
   .extend {
-    height: 32em;
+    height: 35em;
   }
   .extendp {
-    height: 8em !important;
+    height: 10em !important;
   }
 }
 
