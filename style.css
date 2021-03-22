@@ -271,11 +271,23 @@ footer a:hover {
   :root {
     font-size: 20px;
   }
+  .extend {
+    height: 37em;
+  }
+  .extendp {
+    height: 13em !important;
+  }
 }
 
 @media screen and (min-width: 2000px) {
   :root {
     font-size: 40px;
+  }
+  .extend {
+    height: 38em;
+  }
+  .extendp {
+    height: 14em !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

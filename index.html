@@ -8,27 +8,29 @@
     <script src="https://kit.fontawesome.com/6bf04c5b33.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header class="header" id="header">
         <h1>deev Patricio Fara  <br> Portfolio</h1>
-        <h2>Programador Jr.</h2>
+        <h2>Web developer Jr.</h2>
         <a href="#proyectos"><button class="start">Proyectos</button></a>
     </header>
     <main>
-        <section class="descripcion">
+        <section class="descripcion" data-aos="fade-up" data-aos-duration="1000">
             <h2>¿Quien soy?</h2>
             <p>Web developer en curso! Actualmente en el curso "Developer Web Full Stack" dictado por Acamica.<br>Con muchas ganas de aprender e involucrarme en el mundo de la programacion.</p>
             <h2>Conocimientos</h2>
             <p>HTML , CSS3 avanzado, SASS, Javascript, AJAX ,peticion y creacion de APIs, desarrollo en Node.js, manejo de mongoDb y MySQL.</p>
             <p>Nivel de ingles : Avanzado</p>
         </section>
-        <section class="section-project" id="proyectos">
+        <section class="section-project" id="proyectos" >
             <h2 class="tittle-carrusel">Proyectos</h2>
             <div class="proyecto-container">
-                <article class="proyecto">
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="500">
                     <img src="./assets/gifos1.jpeg" class="inicio" alt="" id="imagen-gifs">
                     <img src="./assets/gifos2.png" class="middle" alt="">
                     <img src="./assets/gifos3.png" class="fin" alt="">
@@ -36,7 +38,8 @@
                     <p>Pagina responsive con peticiones a API y grabacion de video.</p>
                     <a href="https://patofara.github.io/PROYECTO2/" target="_blank"><button>Ver Proyecto</button></a>
                 </article>
-                <article class="proyecto">
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="200"
+                data-aos-duration="500">
                     <img src="./assets/dinamicPage.jpeg" alt="" class="inicio" id="imagen-landing">
                     <img src="./assets/responsive.png" alt="" class="middle">
                     <img src="./assets/responsive2.png" alt="" class="fin">
@@ -44,28 +47,31 @@
                     <p>Maquetacion de pagina estatica responsive Html, CSS3 , SASS.</p>
                     <a href="https://patofara.github.io/proyectofinal1/" target="_blank"><button>Ver Proyecto</button></a>
                 </article>
-                <article class="proyecto">
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="300"
+                data-aos-duration="500">
                     <img src="./assets/pokedex.png" alt="">
                     <h2>POKEDEX</h2>
                     <p>Pagina estatica, Vanilla JS con peticion a PokeAPI.</p>
                     <a href="https://patofara.github.io/pokedex/" target="_blank"><button>Ver Proyecto</button></a>
                 </article>
-                <article class="proyecto" id="expand">
+                <article class="proyecto" id="expand" data-aos="fade-up" data-aos-delay="400"
+                data-aos-duration="500">
                     <img src="./assets/delilah.png" alt="">
                     <h2>REST API</h2>
                     <p id="text">API dirigida a un restaurante de comidas,desarrollado en NodeJs.<span id="leerMas" class="leerMas">  Leer mas...</span> <span id="endText" hidden> acceso con token , CRUD de productos, pedidos y personas. Base de datos MySQL, usando como ORM: Sequelize</span>  <span id="cerrar" hidden class="leerMas">...Cerrar</span></p>
                     <a href="https://github.com/patofara/delilah_resto" target="_blank"><button>Ver Proyecto</button></a>
                 </article>
-                <article class="proyecto">
-                    <img src="./assets/homeBanking.png" alt="">
-                    <h2>Home Banking (in progress)</h2>
-                    <p>Home Banking basado en Node.js <br> . . .</p>
-                    <!-- <a href="https://patofara.github.io/pokedex/" target="_blank"><button>Ver Proyecto</button></a> -->
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="500"
+                data-aos-duration="500">
+                    <img src="./assets/gym.png" alt="">
+                    <h2>Reserva de turnos Online</h2>
+                    <p>Sistema de reserva de turnos para gimnasios basado en React y nodeJS.</p>
+                    <a href="https://github.com/patofara/gym" target="_blank"><button>Ver Proyecto</button></a>
                 </article>
             </div>
         </section>
     </main>
-        <footer>
+        <footer data-aos="zom-in">
             <h2>Contactame por :</h2>
             <div>
                 <a href="https://wa.me/+543815325336" target="_blank"><i class="fab fa-whatsapp"></i></a>
@@ -73,7 +79,10 @@
                 <a href="mailto:deevpfa@gmail.com"><i class="fas fa-envelope-open" target="_blank"></i></i></a>
             </div>
         </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   
+        AOS.init(); 
+     </script>
     <script src="./script.js"></script>
 </body>
 </html>
