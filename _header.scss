@@ -10,6 +10,10 @@ header{
     transition: opacity 2s ease-in-out;
     transition-delay: 0.5s;
     opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 header h1{
     color: white;
@@ -35,6 +39,9 @@ header h2{
     padding-top: 1em;
 }
 .start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 2em;
     width: 5.5em;
     height: 5.5em;
