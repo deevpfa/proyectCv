@@ -31,10 +31,6 @@ h1, button, h2, a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -55,7 +51,7 @@ h1, button, h2, a {
 
 .skill {
   background-color: #f1f1f1;
-  width: 210px;
+  width: 45%;
   margin: 0.5rem;
   padding: 2rem;
 }
@@ -118,12 +114,18 @@ h1, button, h2, a {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .skill {
+    width: 210px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .fswrapper {
     width: 1170px;
     margin: auto;
+  }
+  .skill {
+    width: 210px;
   }
   .skill-wrapper {
     -webkit-box-orient: horizontal;
@@ -397,7 +399,7 @@ footer a:hover {
   .descripcion {
     padding-top: 4em;
     padding-bottom: 3em;
-    width: 55%;
+    width: 50em;
     margin: auto;
   }
   .proyecto {

@@ -33,7 +33,6 @@ $color-text-darkest: #282727;
 
 .skill-wrapper {
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	padding-top: 1rem;
@@ -48,7 +47,7 @@ $color-text-darkest: #282727;
 }
 .skill {
 	background-color: $color-secondary;
-	width: 210px;
+	width: 45%;
 	margin: 0.5rem;
 	padding: 2rem;
 	p {
@@ -95,14 +94,18 @@ $color-text-darkest: #282727;
 	.skill-wrapper {
 		justify-content: center;
 	}
-	
+	.skill{
+        width: 210px;
+    }
 }
 @media only screen and (min-width: 1200px) {
 	.fswrapper {
 		width: 1170px;
 		margin: auto;
 	}
-	
+    .skill{
+        width: 210px;
+    }
 	.skill-wrapper {
 		flex-direction: row;
 		justify-content: space-between;
