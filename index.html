@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/6bf04c5b33.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
@@ -22,9 +23,57 @@
         <section class="descripcion" data-aos="fade-up" data-aos-duration="1000">
             <h2>¿Quien soy?</h2>
             <p>Web developer.  Actualmente desarrollando trabajos como freelancer.</p>
-            <h2>Conocimientos</h2>
-            <p>HTML , CSS3 avanzado, SASS, Javascript, desarrollo en Node.js, manejo de mongoDb, MySQL, ReactJs., AngularJs., AWS</p>
-            <p>Nivel de ingles : Avanzado</p>
+            <p>Constantemente aprendiendo y buscando nuevos retos</p>
+            <p>Mi objetivo es que mi trabajo me ayude a crecer y que mis conocimientos <br> sean utiles para generar algo nuevo y/o mejor</p>
+            <h2 style="margin-top: 1.5em;">Conocimientos</h2>
+            <div id="Conocimiento" class="tabcontent">
+                <div class="skill-wrapper text-center">
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/react.svg" alt="ReactJS">
+                        <h4>ReactJS</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/angular.svg" alt="AngularJS">
+                        <h4>AngularJS</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/node.svg" alt="NodeJS">
+                        <h4>NodeJS</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/aws.svg" alt="AWS"  style="min-height: 65px;">
+                        <h4>AWS</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/git.svg" alt="GIT Version Control">
+                        <h4>GitHub</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/html.svg" alt="HTML5">
+                        <h4>HTML 5</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/css.svg" alt="CSS 3">
+                        <h4>CSS 3</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/js.svg" alt="JavaScript ES6">
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/sass.svg" alt="Sass - SCSS">
+                        <h4>Sass - SCSS</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/bootstrap.svg" alt="Bootstrap">
+                        <h4>Bootstrap</h4>
+                    </div>
+                    <div class="skill grayfilter">
+                        <img src="./assets/icons/ingles.svg" alt="Inglés Bilingüe">
+                        <h4>Inglés Avanzado</h4>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="section-project" id="proyectos" >
             <h2 class="tittle-carrusel">Proyectos</h2>
@@ -40,14 +89,14 @@
                 data-aos-duration="500">
                     <img src="./assets/delilah.png" alt="">
                     <h2>REST API</h2>
-                    <p id="text">API dirigida a un restaurante de comidas,desarrollado en NodeJs.<span id="leerMas" class="leerMas">  Leer mas...</span> <span id="endText" hidden> acceso con token , CRUD de productos, pedidos y personas. Base de datos MySQL, usando como ORM: Sequelize</span>  <span id="cerrar" hidden class="leerMas">...Cerrar</span></p>
+                    <p id="text">API dirigida a un restaurante de comidas<span id="leerMas" class="leerMas">  Leer mas...</span> <span id="endText" hidden>desarrollado en NodeJs. , acceso con token , CRUD de productos, pedidos y personas. Base de datos MySQL, usando como ORM: Sequelize</span>  <span id="cerrar" hidden class="leerMas">...Cerrar</span></p>
                     <a href="https://github.com/patofara/delilah_resto" target="_blank"><button>Ver Proyecto</button></a>
                 </article>
                 <article class="proyecto" data-aos="fade-up" data-aos-delay="300"
                 data-aos-duration="500">
                     <img src="./assets/gym.png" alt="">
-                    <h2>Turnos Online</h2>
-                    <p>React y nodeJS. <br> User : Prueba <br> Password : prueba123</p>
+                    <h2>&#10026 Turnos Online </h2>
+                    <p>ReactJS y nodeJS. <br> User : Prueba <br> Password : prueba123</p>
                     <a href="http://c2220177.ferozo.com/" target="_blank"><button>Ver Proyecto</button></a>
                 </article>
                 <article class="proyecto" data-aos="fade-up" data-aos-delay="400"
@@ -60,6 +109,13 @@
                     <a href="https://patofara.github.io/PROYECTO2/" target="_blank"><button>Ver Proyecto</button></a>
                 </article>
                 <article class="proyecto" data-aos="fade-up" data-aos-delay="500"
+                data-aos-duration="500">
+                    <img src="./assets/shopping-list.png" alt="">
+                    <h2>Shopping List</h2>
+                    <p>Lista de compras basada en AngularJS.</p>
+                    <a href="https://github.com/patofara/shopping-list" target="_blank"><button>Ver Proyecto</button></a>
+                </article>
+                <article class="proyecto" data-aos="fade-up" data-aos-delay="600"
                 data-aos-duration="500">
                     <img src="./assets/dinamicPage.jpeg" alt="" class="inicio" id="imagen-landing">
                     <img src="./assets/responsive.png" alt="" class="middle">

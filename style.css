@@ -18,12 +18,148 @@ body {
 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
+  font-style: italic;
 }
 
 h1, button, h2, a {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   text-decoration: none;
+}
+
+.skill-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+}
+
+.skill h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skill {
+  margin-bottom: 2rem;
+}
+
+.skill {
+  background-color: #f1f1f1;
+  width: 210px;
+  margin: 0.5rem;
+  padding: 2rem;
+}
+
+.skill p {
+  margin-top: 0;
+}
+
+.skill h4 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.textskill {
+  padding: 1rem 1rem 0.5rem 1rem;
+  background-color: #f1f1f1;
+  width: 210px;
+  margin: 0.5rem;
+}
+
+.grayfilter {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  /* IE6-9 */
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.grayfilter:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.skill-wrapper img,
+.servicios-wrapper img,
+.contact-subgroup img {
+  max-width: 65px;
+}
+
+.cv {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1199px) {
+  .servicios-wrapper,
+  .skill-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .skill-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .fswrapper {
+    width: 1170px;
+    margin: auto;
+  }
+  .skill-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .tab {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2rem;
+  }
+  .skill-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skill:first-of-type,
+  .text-skill:first-of-type {
+    margin-left: 0;
+  }
+  .skill:last-of-type,
+  .text-skill:last-of-type {
+    margin-right: 0;
+  }
+  .skill:hover {
+    cursor: pointer;
+  }
 }
 
 header {
@@ -112,6 +248,24 @@ header h2 {
   text-align: center;
   color: #585858;
   padding: 2em 0.5em 0 0.5em;
+}
+
+.tablinks {
+  padding: 0.75rem 1rem;
+}
+
+.list-conocimientos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.list-conocimientos img {
+  width: 5.5em;
+  height: 5.5em;
+  margin: 1em 1em 1em 1em;
 }
 
 .section-project {
@@ -282,11 +436,8 @@ footer a:hover {
     -webkit-transition-delay: 2s;
             transition-delay: 2s;
   }
-  .extend {
-    height: 35em;
-  }
   .extendp {
-    height: 10em !important;
+    height: 12.5em !important;
   }
 }
 
@@ -294,20 +445,14 @@ footer a:hover {
   :root {
     font-size: 20px;
   }
-  .extend {
-    height: 37em;
-  }
   .extendp {
-    height: 13em !important;
+    height: 13.5em !important;
   }
 }
 
 @media screen and (min-width: 2000px) {
   :root {
     font-size: 40px;
-  }
-  .extend {
-    height: 38em;
   }
   .extendp {
     height: 14em !important;
