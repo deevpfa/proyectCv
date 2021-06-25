@@ -8,6 +8,8 @@ html {
 
 body {
   margin: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 * {
@@ -25,6 +27,25 @@ h1, button, h2, a {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3d3c3c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #646363;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #646363;
 }
 
 .skill-wrapper {
@@ -63,6 +84,18 @@ h1, button, h2, a {
 .skill h4 {
   margin-top: 1rem;
   margin-bottom: 0;
+}
+
+video {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 
 .textskill {

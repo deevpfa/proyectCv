@@ -6,6 +6,8 @@ html{
 }
 body{
     margin: auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 *{
     box-sizing: border-box;
@@ -20,7 +22,24 @@ h1,button,h2,a{
     font-weight: 600;
     text-decoration: none;
 }
-
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(61, 60, 60);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(100, 99, 99);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 99, 99);
+  }
 
 // Variables
 $color-main: #fff;
@@ -57,6 +76,15 @@ $color-text-darkest: #282727;
 		margin-top: 1rem;
 		margin-bottom: 0;
 	}
+}
+video{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	// z-index: 1;
+	object-fit: fill;
+	transition: opacity 2s ease-in-out;
+    transition-delay: 0.5s;
 }
 .textskill {
 	padding: 1rem 1rem 0.5rem 1rem;
