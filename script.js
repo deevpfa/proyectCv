@@ -1,10 +1,5 @@
-let video = document.getElementById("video");
 let header = document.getElementById("header")
-setTimeout(() => {
-    video.style.opacity="0"
-    header.style.opacity = "1"
-    document.body.style.overflowY = "scroll"
-}, 4000);
+header.style.opacity = "1"
     //cambio de imagenes de proyectos
 let imagenGif = document.getElementById("imagen-gifs");
 let imagenLanding = document.getElementById("imagen-landing");
