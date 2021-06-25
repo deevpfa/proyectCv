@@ -27,6 +27,25 @@ h1, button, h2, a {
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #646363;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #646363;
+}
+
 .skill-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

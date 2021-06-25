@@ -30,6 +30,24 @@ $color-text-gray: #808080;
 $color-text-dark: #333131;
 $color-text-darkest: #282727;
 
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(100, 99, 99);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 99, 99);
+  }
 
 .skill-wrapper {
 	display: flex;
