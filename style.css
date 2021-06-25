@@ -87,6 +87,7 @@ h1, button, h2, a {
 }
 
 video {
+  display: none;
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -447,6 +448,9 @@ footer a:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  video {
+    display: block;
   }
   .middle, .fin {
     display: inline-block;
