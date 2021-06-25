@@ -41,12 +41,12 @@ $color-text-darkest: #282727;
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(100, 99, 99);
+    background: $color-text-gray;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(100, 99, 99);
+    background: $color-text-gray;
   }
 
 .skill-wrapper {

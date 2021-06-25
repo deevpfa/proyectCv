@@ -38,12 +38,12 @@ h1, button, h2, a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #646363;
+  background: #808080;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #646363;
+  background: #808080;
 }
 
 .skill-wrapper {
