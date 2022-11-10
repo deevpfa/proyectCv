@@ -4,7 +4,7 @@ header{
     background-image: url(./assets/imagenFondo.jpg);
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: initial;
     text-align: center;
     padding: 10em 0;
     transition: opacity 2s ease-in-out;
@@ -14,8 +14,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-}
+    }
 header h1{
     color: white;
     position: relative;
